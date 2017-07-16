@@ -15,6 +15,7 @@ sleep 2
 cat data/clean/*.cc.txt 
 sleep 2
 cat data/clean/*.cc.txt >> $OUTPUT_FILE
+# >> is an append operator
 
 mv -v data/clean/country.cc.processed data/clean/country.cc.txt
 
